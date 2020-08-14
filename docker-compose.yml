@@ -7,5 +7,5 @@ services:
       - "80:80"
     command: npm start
     volumes:
-      - ..:/docxtohtml/
+      - .:/docxtohtml/
       - /docxtohtml/node_modules
