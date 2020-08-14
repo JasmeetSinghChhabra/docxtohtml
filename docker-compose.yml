@@ -1,0 +1,14 @@
+# You can set default values for the environment variables using a .env file,
+# which Compose automatically looks for. Values set in the shell environment
+# override those set in the .env file.
+version: "3.7"
+services:
+  docxtohtml:
+    build: .
+    # image: zeudh.azurecr.io/mula_service:development
+    ports:
+      - "80:80"
+    command: npm start
+    volumes:
+      - ..:/docxtohtml/
+      - /docxtohtml/node_modules

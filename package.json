@@ -1,0 +1,31 @@
+{
+  "name": "bcit_docx_to_html_converter_test_app",
+  "description": "A Docx Converter to HTML",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jasmeet Singh Chhabra",
+    "email": "js.chhabra1994@gmail.com"
+  },
+  "keywords": [
+    "docx",
+    "converter",
+    "javascript",
+    "html"
+  ],
+  "license": "UNLICENSED",
+  "readme": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lalalic/docx2html.git"
+  },
+  "dependencies": {
+    "docx4js": "^1.x.x",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "test": "jasmine",
+    "karma": "karma start"
+  }
+}

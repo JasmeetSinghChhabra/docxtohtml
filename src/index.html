@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="HandheldFriendly" content="true" />
+    <title>BCIT TEST APP</title>
+    <script src="index.js"></script>
+    <script>
+      function test(input) {
+        require("docx2html")(input.files[0]).then(function (converted) {
+          text.value = converted.toString();
+        });
+      }
+	</script>
+	<style>
+		.banner {
+    overflow: auto;
+    margin-bottom: 20px;
+    background-color: #555;
+    color: #fff;
+}
+
+.banner a {
+    color: #fff;
+}
+
+.banner h1 {
+    font-size: 20px;
+    line-height: 2;
+    margin: 0.5em 0;
+}
+	</style>
+  </head>
+  <body>
+	<div class="banner">
+		<div class="container">
+		  <h1><a href="/">BCIT : Docx to HTML APP</a></h1>
+		</div>
+	  </div>
+
+    <input
+      type="file"
+      style="position: absolute; top: 30;"
+      onchange="test(this)"
+    />
+  </body>
+</html>
