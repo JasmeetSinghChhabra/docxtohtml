@@ -21,3 +21,7 @@ Refers to repository [docker.io/1313786/docx]
 
 ## To Run Service Individually in background: 
 docker run -d -p 80:80 1313786/docx
+
+### Errors 
+Try npm install
+Or else Please Contact js.chhabra1994@gmail.com with the error stack trace/Console Output
