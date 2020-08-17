@@ -1,5 +1,5 @@
 {
-  "name": "bcit_docx_to_html_converter_test_app",
+  "name": "docx_to_html_converter",
   "description": "A Docx Converter to HTML",
   "version": "1.0.0",
   "author": {

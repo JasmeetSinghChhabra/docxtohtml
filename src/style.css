@@ -1,0 +1,16 @@
+.banner {
+    overflow: auto;
+    margin-bottom: 20px;
+    background-color: #555;
+    color: #fff;
+}
+
+.banner a {
+    color: #fff;
+}
+
+.banner h1 {
+    font-size: 20px;
+    line-height: 2;
+    margin: 0.5em 0;
+}

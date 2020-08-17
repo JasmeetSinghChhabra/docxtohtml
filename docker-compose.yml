@@ -2,10 +2,11 @@ version: "3.7"
 services:
   docxtohtml:
     build: .
-    # image: zeudh.azurecr.io/mula_service:development
+    image: 1313786/docx
     ports:
       - "80:80"
-    command: npm start
-    volumes:
-      - .:/docxtohtml/
-      - /docxtohtml/node_modules
+    ## To RUN LOCALLY
+    # command: npm start
+    # volumes:
+    #   - .:/docxtohtml/
+    #   - /docxtohtml/node_modules
