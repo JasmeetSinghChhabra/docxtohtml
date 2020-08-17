@@ -22,7 +22,7 @@ https://hub.docker.com/repository/docker/1313786/docx
 https://github.com/JasmeetSinghChhabra/docxtohtml
 
 ## To Run Service Individually in background: 
-docker run -d -p 80:80 1313786/docx
+docker run -d -p 80:80 1313786/docx:development
 
 ### Errors 
 Try npm install
