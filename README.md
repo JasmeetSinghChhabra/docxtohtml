@@ -18,6 +18,7 @@ docker build -t 1313786/docx:development . && docker push 1313786/docx:developme
 
 ### Image is pushed to docker registry at
 Refers to repository [docker.io/1313786/docx]
+https://hub.docker.com/repository/docker/1313786/docx
 
 ## To Run Service Individually in background: 
 docker run -d -p 80:80 1313786/docx
