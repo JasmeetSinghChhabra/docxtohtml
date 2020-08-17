@@ -2,11 +2,11 @@ version: "3.7"
 services:
   docxtohtml:
     build: .
-    # image: 1313786/docx
+    image: 1313786/docx
     ports:
       - "80:80"
     ## To RUN LOCALLY
-    command: npm start
-    volumes:
-      - .:/docxtohtml/
-      - /docxtohtml/node_modules
+    # command: npm start
+    # volumes:
+    #   - .:/docxtohtml/
+    #   - /docxtohtml/node_modules
